@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Orotund";
+    src: url("../fonts/Orotund.ttf") format("truetype");
+}
+
+html {
+   width:100%;
+   height:100%;
+}
+
+body {
+	color: #0a52a5;
+	font-family: "Poppins", sans-serif;
+}
+
+#title {
+	font-family: Orotund;
+	font-size: 72px;
+	text-align: center;
+}
+
+.container {
+	background-color: transparent;
+}
+
+#heading {
+	text-align: center;
+	background-color: #ff6225;
+	color: white;
+	margin: 0px;
+}
+
+button:hover {
+	background-color: #ff6225;
+	color: white;
+}
+
+#addBurger {
+	text-align: right;
+	background:url("../images/big-mac.png") no-repeat;
+	background-size: contain;
+	margin: 0px;
+}
